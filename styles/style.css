@@ -73,6 +73,7 @@ body {
 .light-para {
   margin: 0.5rem auto;
   color: hsl(212, 23%, 69%);
+  line-height: 18px;
 }
 
 .profile-container {
@@ -111,7 +112,6 @@ body {
   width: 2.5rem;
   height: 2.5rem;
   padding: 0.75rem;
-
   border-radius: 50%;
   background-color: hsl(210, 46%, 95%);
   float: right;
@@ -121,4 +121,5 @@ body {
 
 .share {
   margin-top: -1rem;
+  cursor: pointer;
 }
