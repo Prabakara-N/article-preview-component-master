@@ -1,7 +1,4 @@
-/* - Very Dark Grayish Blue: hsl(217, 19%, 35%) */
-/* - Desaturated Dark Blue: hsl(214, 17%, 51%) */
-/* - Grayish Blue: hsl(212, 23%, 69%) */
-/* - Light Grayish Blue: hsl(210, 46%, 95%) */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -21,13 +18,6 @@ html {
   font-size: 13px;
 }
 
-/* .root {
-  --very-dark-gray: hsl(217, 19%, 35%);
-  --Dark-Blue: hsl(214, 17%, 51%);
-  --Grayish-Blue: hsl(212, 23%, 69%);
-  --light-blue: hsl(210, 46%, 95%);
-} */
-
 img {
   width: 100%;
   height: auto;
@@ -36,19 +26,20 @@ img {
 body {
   background-color: hsl(210, 46%, 95%);
   font-family: "Manrope", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card {
-  width: 20%;
+  width: 375px;
   background-color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 2);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 2);
+  position: relative;
 }
 
 .main-image {
@@ -119,7 +110,47 @@ body {
   margin-top: -2rem;
 }
 
+.share-icon:hover {
+  transform: scale(1.05) translateY(-5px);
+  transition: 0.3s;
+}
+
 .share {
   margin-top: -1rem;
   cursor: pointer;
+}
+
+.icon-container {
+  background-color: hsl(217, 19%, 35%);
+  padding: 0.8rem 2.5rem;
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 7px;
+  border-radius: 15px;
+  position: absolute;
+  left: 24rem;
+  bottom: 5.5rem;
+}
+
+.fa-brands {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sharee-icon {
+  letter-spacing: 3px;
+  padding-right: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.open {
+  display: block;
 }

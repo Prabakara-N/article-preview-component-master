@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Article Project</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- favicon -->
     <link rel="icon" href="./images/favicon-32x32.png" type="icon/png" />
+
+    <title>Article Project</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -44,10 +56,24 @@
             </div>
           </div>
           <div class="share">
-            <img src="./images/icon-share.svg" alt="share" class="share-icon" />
+            <img
+              src="./images/icon-share.svg"
+              alt="share"
+              class="share-icon"
+              id="js-icon"
+            />
+          </div>
+          <div class="icon-container hidden" id="hide">
+            <p class="sharee-icon">SHARE</p>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- custom script -->
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
