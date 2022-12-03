@@ -1,0 +1,124 @@
+/* - Very Dark Grayish Blue: hsl(217, 19%, 35%) */
+/* - Desaturated Dark Blue: hsl(214, 17%, 51%) */
+/* - Grayish Blue: hsl(212, 23%, 69%) */
+/* - Light Grayish Blue: hsl(210, 46%, 95%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 13px;
+}
+
+/* .root {
+  --very-dark-gray: hsl(217, 19%, 35%);
+  --Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --light-blue: hsl(210, 46%, 95%);
+} */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 20%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 2);
+}
+
+.main-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.right-container {
+  margin: 1rem auto;
+  padding: 1rem 2.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.bold-para {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.light-para {
+  margin: 0.5rem auto;
+  color: hsl(212, 23%, 69%);
+}
+
+.profile-container {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-detail-container {
+  margin: 0.75rem auto;
+  padding: 2rem auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.9rem;
+  color: hsl(214, 17%, 51%);
+  font-weight: 700;
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+  font-size: 0.9rem;
+}
+
+.share-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.75rem;
+
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+  float: right;
+  display: block;
+  margin-top: -2rem;
+}
+
+.share {
+  margin-top: -1rem;
+}
