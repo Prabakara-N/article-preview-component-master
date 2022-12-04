@@ -140,6 +140,24 @@ body {
   color: white;
 }
 
+.fa-facebook:hover {
+  color: #2c57b4;
+  transition: 0.3s;
+  transform: scale(1.05) translateY(-5px);
+}
+
+.fa-instagram:hover {
+  color: #c13584;
+  transition: 0.3s;
+  transform: scale(1.05) translateY(-5px);
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+  transition: 0.3s;
+  transform: scale(1.05) translateY(-5px);
+}
+
 .sharee-icon {
   letter-spacing: 3px;
   padding-right: 1rem;
