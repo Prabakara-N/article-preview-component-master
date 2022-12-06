@@ -108,6 +108,7 @@ body {
   float: right;
   display: block;
   margin-top: -2rem;
+  transition: 0.3s;
 }
 
 .share-icon:hover {
@@ -138,6 +139,7 @@ body {
   padding-right: 1rem;
   font-size: 1.5rem;
   color: white;
+  transition: 0.3s;
 }
 
 .fa-facebook:hover {
